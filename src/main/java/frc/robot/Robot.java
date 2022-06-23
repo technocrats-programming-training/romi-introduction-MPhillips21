@@ -19,6 +19,7 @@ public class Robot extends ProceduralRobot {
     // Write your code here:
     driveTime(0.3,2);
     turnTime(1,1.2);
+    sleepSeconds(0.2);
     driveTime(0.3,2);
     System.out.println("50% chance");
     turnTime(-1,1.8);
